@@ -1,0 +1,22 @@
+.photos {
+    display: flex;
+    clear: both;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    
+    /*
+    instead of using margin, we can use gap propety to display between img elements.
+    */
+    
+}
+
+
+.photos img {
+    max-width: 300px;
+    max-height: 500px;
+    border: white solid 2px;
+    /* margin: 2px; */
+    padding: 3px;
+}

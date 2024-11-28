@@ -1,0 +1,96 @@
+html {
+    background-color: #e3e6e6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+a  {
+    color: rgb(202, 198, 198);
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+header {
+    text-align: center;
+}
+header #header-title {
+    font-size: 150%;
+    padding: 1.5em;
+    background-image: url("C:/Users/khatr/OneDrive/DouglasCollege/Fall2024/MultimediaWebDevelopmet_CSIS1280/Lab/Lab5/PersonalProject/pictures/TemplatePhoto/HeaderBackgroundImage.jpg");
+
+}
+
+.menu{
+    /* border: red dashed 1px; */
+    text-align: center;
+    background-color: #232f3f;
+    padding: 1.2em;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+header li{
+    /* border: red dashed 1px; */
+    float: left;
+    font-size: large;
+    width: 20%;
+
+}
+
+footer{
+    /* border: red solid 1px ; */
+    clear: both;
+    text-align: center;
+    background-color: #232f3f;
+   
+}
+
+footer .footer-menu div {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+
+footer .footer-menu li{
+
+    margin-bottom: 1.5em;
+
+}
+
+footer .footer-menu {
+    /* border: red solid 1px ; */
+    display: inline-block;
+    width: 80%;
+    /* background-color: #232f3f; */
+
+    
+}
+
+footer .footer-menu h1 {
+    color: bisque;
+}
+
+footer .location{
+    color: white;
+}
+
+
+footer a:hover{
+    text-decoration: underline;
+}

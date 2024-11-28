@@ -1,0 +1,74 @@
+
+.main-pic {grid-area: main-pic;}
+.logo {grid-area: logo;}
+.about-me {grid-area: about-me;}
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'main-pic main-pic main-pic main-pic '
+    'logo about-me about-me about-me';
+    gap: 10px;
+    clear: both;
+
+
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.about-me {
+    background-color: white;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.about-me ul{
+    margin-left: 5%;
+    width: 80%;
+    /* border: red solid 1px; */
+}
+
+@media (max-width: 600px){
+    /* 
+        using max-width: 600px to test on Chrome.
+        It cannot be changed to 400px if necessary for smaller device such as mobile.
+    */
+    
+    .grid-container {
+        display: grid;
+        grid-template-areas: 
+        'main-pic'
+        'about-me';
+      
+    }
+    
+    
+    .horizontalNavigation a{
+        font-size:small;
+    }
+
+    .about-me {
+        font-size: small;
+    }
+    .main-pic {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo img {
+        display: none;
+    }
+
+}
